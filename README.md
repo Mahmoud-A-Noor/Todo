@@ -1,2 +1,2 @@
 # Todo
-Todo made using React &amp; Django
+A web based Todo app made using React &amp; Django
