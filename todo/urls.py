@@ -12,16 +12,3 @@ urlpatterns = [
     
 ] + router.urls
 
-"""
-### router.urls ###
-
-[
-    <URLPattern '^todos/$' [name='todos-list']>, 
-    <URLPattern '^todos\.(?P<format>[a-z0-9]+)/?$' [name='todos-list']>, 
-    <URLPattern '^todos/(?P<pk>[^/.]+)/$' [name='todos-detail']>, 
-    <URLPattern '^todos/(?P<pk>[^/.]+)\.(?P<format>[a-z0-9]+)/?$' [name='todos-detail']>, 
-    <URLPattern '^$' [name='api-root']>, 
-    <URLPattern '^\.(?P<format>[a-z0-9]+)/?$' [name='api-root']>
-]
-
-"""
